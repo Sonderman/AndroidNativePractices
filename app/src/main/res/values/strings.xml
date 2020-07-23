@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Practic</string>
+    <string name="metin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cupiditate error minima, nesciunt omnis repudiandae sunt tempore. Alias consequatur corporis deserunt dolorem doloribus earum eligendi hic illum ipsum mollitia nesciunt nihil non, nulla omnis quae repellat soluta? Aliquid corporis, ducimus error esse iure labore, maiores non rerum suscipit voluptate voluptatem.</string>
+    <string name="title_activity_menu_bar">MenuBar</string>
+    <array name="Sehirler">
+        <item>Ankara</item>
+        <item>İstanbul</item>
+        <item>Çankırı</item>
+        <item>Karabük</item>
+        <item>İzmir</item>
+        <item>Adana</item>
+        <item>Trabzon</item>
+        <item>Adıyaman</item>
+        <item>Afton</item>
+        <item>Sinop</item>
+        <item>Hatay</item>
+        <item>Kahramanmaraş</item>
+        <item>Kastamonu</item>
+        <item>Antalya</item>
+    </array>
+    <string-array name="renk_positions">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="Renkler">
+        <item>Sarı</item>
+        <item>Mavi</item>
+        <item>Yeşil</item>
+    </string-array>
+    <string name="title_activity_options_menu">OptionsMenu</string>
+</resources>

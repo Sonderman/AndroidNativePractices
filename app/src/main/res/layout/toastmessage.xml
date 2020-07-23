@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/toastbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="ToastMessage" />
+
+        <Button
+            android:id="@+id/ozaltoast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ÖzelToast" />
+
+        <Button
+            android:id="@+id/resimtoast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resim" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

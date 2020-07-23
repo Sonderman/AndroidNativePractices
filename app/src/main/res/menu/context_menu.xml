@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Paylaş"
+    android:id="@+id/paylas"/>
+    <item
+        android:title="Kaydet"
+        android:id="@+id/kaydet"/>
+    <item
+        android:title="Sil"
+        android:id="@+id/sil"/>
+</menu>
