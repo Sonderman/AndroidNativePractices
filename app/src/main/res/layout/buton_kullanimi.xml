@@ -1,114 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#333300"
-    tools:context=".Seviye1.Buton_Kullanimi">
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#333300"
+        tools:context=".Seviye1.Buton_Kullanimi">
 
 
-    <LinearLayout
-        style="@style/LinearLayout_center_V">
+
+
 
         <LinearLayout
-            android:id="@+id/linearLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="30dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/selector"
-                    android:text="Button1"
-                    tools:layout_editor_absoluteX="33dp"
-                    tools:layout_editor_absoluteY="74dp" />
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector"
+                        android:text="Button1"
+                        tools:layout_editor_absoluteX="33dp"
+                        tools:layout_editor_absoluteY="74dp"/>
 
                 <Button
-                    android:id="@+id/button3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/selector"
-                    android:text="Button3"
-                    tools:layout_editor_absoluteX="33dp"
-                    tools:layout_editor_absoluteY="230dp" />
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selector"
+                        android:text="Button3"
+                        tools:layout_editor_absoluteX="33dp"
+                        tools:layout_editor_absoluteY="230dp"/>
 
                 <Button
-                    android:id="@+id/button5"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/selector"
-                    android:text="Button5"
-                    tools:layout_editor_absoluteX="33dp"
-                    tools:layout_editor_absoluteY="374dp" />
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selector"
+                        android:text="Button5"
+                        tools:layout_editor_absoluteX="33dp"
+                        tools:layout_editor_absoluteY="374dp"/>
 
                 <Button
-                    android:id="@+id/button_n1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/selector"
-                    android:onClick="clickmetod"
-                    android:text="2.yöntem1" />
+                        android:id="@+id/button_n1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selector"
+                        android:onClick="clickmetod"
+                        android:text="2.yöntem1"/>
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/selector"
-                    android:text="Button2"
-                    tools:layout_editor_absoluteX="221dp"
-                    tools:layout_editor_absoluteY="374dp" />
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector"
+                        android:text="Button2"
+                        tools:layout_editor_absoluteX="221dp"
+                        tools:layout_editor_absoluteY="374dp"/>
 
                 <Button
-                    android:id="@+id/button4"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/selector"
-                    android:text="Button4"
-                    tools:layout_editor_absoluteX="221dp"
-                    tools:layout_editor_absoluteY="230dp" />
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selector"
+                        android:text="Button4"
+                        tools:layout_editor_absoluteX="221dp"
+                        tools:layout_editor_absoluteY="230dp"/>
 
                 <Button
-                    android:id="@+id/button6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/selector"
-                    android:text="Button6"
-                    tools:layout_editor_absoluteX="221dp"
-                    tools:layout_editor_absoluteY="74dp" />
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selector"
+                        android:text="Button6"
+                        tools:layout_editor_absoluteX="221dp"
+                        tools:layout_editor_absoluteY="74dp"/>
 
                 <Button
-                    android:id="@+id/button_n2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/selector"
-                    android:onClick="clickmetod"
-                    android:text="2.yöntem2" />
+                        android:id="@+id/button_n2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selector"
+                        android:onClick="clickmetod"
+                        android:text="2.yöntem2"/>
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
